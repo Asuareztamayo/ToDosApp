@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-flex justify-content-center align-content-center mt-5 ">
+    <div class="d-flex flex-column justify-content-center align-items-center w-50 h-25 container-to-do" >
+        <h2 class="text-center p-3">WEVENTURE Coding Challenge</h2>
+        <input  type="text" id="addToDo" value="" class="w-75 rounded my-3 mx-5" placeholder="What needs to be accomplished today?" >
+          <ul id="toDoList" class="rounded shadow-sm w-75 p-0">
+            
+          </ul>
+        <div class="w-100 d-flex justify-content-end">
+          <button  type="submit" class="btn btn-light m-3" id="deleteList">Clear all</button>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

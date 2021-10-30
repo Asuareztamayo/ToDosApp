@@ -1,0 +1,45 @@
+
+.container-to-do
+{   
+    background-color: #DBDCDE;
+};
+
+
+
+* {
+  margin: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style:none;
+    padding: 5%;
+  }
+  
+  ul li {
+    cursor: pointer;
+    background: #eee;
+    padding: 2%;
+    margin: 0;
+    width: 100%;
+  }
+  
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+  }
+  
+  .task{
+    color: black;
+    display: block;
+  }
+
+  .done-task{
+    color: #96CE96;
+    text-decoration: line-through;
+    display: none;
+  }
+
+  .delete-task{
+    color: black;
+    background-color: white;
+    border-radius: 15%;
+  }
